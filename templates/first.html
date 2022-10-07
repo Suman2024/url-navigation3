@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>this is my first project html file</h1>
+    </center>
+    <h1>conneting to second html file</h1>
+    <a href="{% url 'second'%}">if you click on this it will go to second html file</a>
+    <center>
+        <h1>conn to specific html files</h1>
+        <a href="{% url 'app2:sthird'%}">if you click on this it will go to specific html filee</a>
+    </center>
+</body>
+</html>
